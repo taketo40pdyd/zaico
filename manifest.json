@@ -1,0 +1,36 @@
+{
+  "id": "/zaico/",
+  "name": "在庫管理システム",
+  "short_name": "在庫管理",
+  "description": "商品登録・入出庫・棚卸・発注／受注・取引先管理まで、これひとつで完結する在庫管理アプリです。バーコードスキャン、ラベル印刷、在庫アラート通知にも対応しています。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "/zaico/",
+  "scope": "/zaico/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f5f4",
+  "theme_color": "#15171a",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "在庫一覧画面"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "スマホでの在庫一覧画面"
+    }
+  ]
+}
